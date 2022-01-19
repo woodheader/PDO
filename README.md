@@ -12,11 +12,12 @@ PHP数据库密码加密，扩展层解密
 
 # 使用方法
 因为修改 PDO 扩展有一定的门槛，其他同学可以直接使用这个 PDO 扩展。
-1、下载 pdo.so 文件
-2、查看你的 phpinfo() 配置（或者：php -i |grep 'extension_dir'）
-3、放到你的 so 库目录中
-4、重启（容器或者服务）
-5、加密你的秘钥：https://tools.uri.wiki/
+- 下载 pdo.so 文件
+- 查看你的 phpinfo() 配置（或者：php -i |grep 'extension_dir'）
+- 放到你的 so 库目录中
+- 重启（容器或者服务）
+- 加密你的秘钥：https://tools.uri.wiki/
+- 将加密后的秘钥配置到你的代码中
 
 # 注意事项
 因使用的算法相对简单，只是简单做了层加密，对安全有更高需求的同学，就不要使用了。
