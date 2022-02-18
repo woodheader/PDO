@@ -16,7 +16,7 @@ PHP数据库密码加密，扩展层解密
 - 查看你的 phpinfo() 配置（或者：php -i |grep 'extension_dir'）
 - 放到你的 so 库目录中（旧的 pdo.so 注意备份）
 - 重启（容器或者服务）
-- 加密你的秘钥：https://tools.uri.wiki/
+- 加密你的秘钥：https://tools.uri.wiki/pdo/
 - 将加密后的秘钥配置到你的代码中
 
 # 注意事项
