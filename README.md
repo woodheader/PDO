@@ -12,7 +12,7 @@ PHP数据库密码加密，扩展层解密
 
 # 制作过程
 为了方便有兴趣的同学自己制作，我把制作过程形成了文档
-传送门：https://wiki.uri.wiki/docs/jishubiji/jishubiji-1ea6vfu6ch8h5
+- 传送门：https://o1.ink/bHKGCK
 
 # 使用方法
 因为修改 PDO 扩展有一定的门槛，其他同学可以直接使用这个 PDO 扩展。
